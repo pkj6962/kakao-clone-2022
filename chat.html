@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css\styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e96c555075.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Screen - kakao clone</title>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alter-screen-header">
+      <div class="alter-screen-header__column">
+        <i class="fas fa-chevron-left fa-lg"></i>
+      </div>
+      <div class="alter-screen-header__column"><h1>Alexander</h1></div>
+
+      <div class="alter-screen-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <h4 class="date">Tuesday, June 30, 2020</h4>
+        <div class="message-component message__others">
+            <img class="message__avatar" src="./screenshots/sm.jpg" />
+            <div class="message-component__content">
+              <div class="message__author">Nicholas</div>
+              <div class="message__info">
+                <div class="message__bubble">
+                  jeorgia
+                </div>
+                <div class="message__content__time">21:27</div>
+              </div>
+            </div>
+          </div>
+          <div class="message-component message__mine">
+            <div class="message__info">
+
+                <div class="message__bubble">
+                What's up?</div>
+                <div class="message__time">21:27</div>
+          </div>
+    </main>
+
+    <form class="input-screen">
+      <div class="input__column">
+        <i class="fas fa-plus-sqaure fa-3x"></i>
+      </div>
+      <div class="input__column">
+        <input type="text" placeholder="Write a message..."/>
+        <button class="input-submit"><i class="far fa-smile-wink fa-3x"></i></button>     
+        <button class="input-submit"><i class="fas fa-arrow-up fa-3x"></i></button>      
+      </div>
+     
+    </form>
+
+
+  </body>
+</html>

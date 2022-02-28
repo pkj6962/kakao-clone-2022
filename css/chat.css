@@ -1,0 +1,70 @@
+.chat-screen {
+  background-color: var(--chat-screen-color);
+  height: 1500vh;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-screen .status-bar {
+  z-index: 2;
+}
+.chat-screen .alter-screen-header {
+  z-index: 1;
+}
+
+.main-chat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-screen {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  box-sizing: border-box;
+  background-color: white;
+
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+}
+
+.input__column:first-child {
+  padding: 20px 30px;
+}
+
+.input__column:nth-child(2) {
+  margin: 10px 25px 10px 0;
+  border-radius: 45px;
+  width: 90%;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+}
+
+.input__column:nth-child(2) input {
+  margin: 25px;
+  width: 90%;
+  height: 70%;
+  border: none;
+  font-size: 30px;
+  background-color: inherit;
+}
+
+.input__column .input-submit {
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.input-submit:last-child {
+  background-color: var(--yellow);
+}
+.input-submit i {
+  padding: 0px;
+}

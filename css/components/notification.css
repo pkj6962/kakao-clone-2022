@@ -1,0 +1,9 @@
+.notification-dot {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--notification-color);
+}

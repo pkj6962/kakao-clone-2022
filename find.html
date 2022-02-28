@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css\styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e96c555075.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Screen - kokoa clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <div><i class="fas fa-search fa-lg"></i></div>
+        <div>
+          <i class="fas fa-cog fa-lg" position="relative">
+            <div class="notification-dot"></div>
+          </i>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="find-icon">
+        <div class="find-icon__column">
+          <i class="fas fa-qrcode fa-3x"></i>
+          <span class="find-icon__text">QR Code</span>
+        </div>
+        <div class="find-icon__column">
+          <i class="fas fa-address-book fa-3x"></i>
+          <span class="find-icon__text">Add by<br />Contacts</span>
+        </div>
+
+        <div class="find-icon__column">
+          <span id="letter-icon">ID</span>
+          <span class="find-icon__text">Add by ID</span>
+        </div>
+        <div class="find-icon__column">
+          <i class="far fa-envelope fa-3x"></i>
+          <span class="find-icon__text">Invite</span>
+        </div>
+      </div>
+
+      <div class="find-friends">
+        <div><h3 class="find-frineds__title">Recommended Friends</h3></div>
+        <div class="find-friends__text">You have no recommended friends.</div>
+      </div>
+
+      <div class="find-openchat">
+        <div class="find-openchat__title">
+          <h3>Open Chat</h3>
+          <span
+            >Go to openchat Home &nbsp;<i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+          <!-- <div>
+            <span>Go to openchat Home</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div> -->
+        </div>
+        <div class="find-openchat__component">
+          <div class="find-openchat__component__text">
+            <h4>#BTS</h4>
+            <div>#bts#army#friends</div>
+            <div class="find-openchat__component__text__info">
+              <img src="screenshots/bts-host.jfif" />
+              <div>802 members</div>
+              <div>|</div>
+              <div>Active</div>
+            </div>
+          </div>
+          <div class="find-openchat__component__img">
+            <div class="find-openchat__component__likes">
+              <!-- icon: heart-->
+              <i class="fas fa-heart"></i>
+              <span>&nbsp;326</span>
+            </div>
+            <img src="screenshots/bts-cover.png" />
+          </div>
+        </div>
+        <div class="find-openchat__component">
+          <div class="find-openchat__component__text">
+            <h4>#BTS</h4>
+            <div>#BTS#ARMY#FRIENDS</div>
+            <div class="find-openchat__component__text__info">
+              <img src="screenshots/bts-host.jfif" />
+              <div>802 members</div>
+              <div>|</div>
+              <div>Active</div>
+            </div>
+          </div>
+          <div class="find-openchat__component__img">
+            <div class="find-openchat__component__likes">
+              <!-- icon: heart-->
+              <i class="fas fa-heart"></i>
+              <span>326</span>
+            </div>
+            <img src="screenshots/bts-cover.png" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-3x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">1</span>
+            <i class="far fa-comment fa-3x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-3x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-3x"></i>
+            <div class="nav__notification nav__notification__small"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

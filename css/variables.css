@@ -1,0 +1,12 @@
+:root {
+  --yellow: #fae100;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --slim-border: 1px solid rgba(0, 0, 0, 0.1);
+  --slimmest-border: 1px solid rgba(0, 0, 0, 0.05);
+  --main-font-color: #a1a1a1;
+  --main-bold-color: #9f9f9f;
+  --notification-color: #fe5c48;
+  --chat-screen-color: #abc1d1;
+  --status-bar-height: 35px;
+}

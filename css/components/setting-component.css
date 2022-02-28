@@ -1,0 +1,32 @@
+.setting-component {
+  padding: 40px 25px 40px 15px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: var(--slimmest-border);
+}
+.setting-component:last-child {
+  border-bottom: none;
+}
+.setting-component__icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setting-component__title {
+  padding-left: 35px;
+  font-size: 35px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+}
+.setting-component__value {
+  color: var(--main-bold-color);
+  position: absolute;
+  right: var(--horizontal-space);
+
+  font-size: 30px;
+  font-weight: 500;
+}

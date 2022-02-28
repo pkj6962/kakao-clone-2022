@@ -1,0 +1,39 @@
+.alter-screen-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  box-sizing: border-box;
+  top: 55px;
+
+  background-color: inherit;
+
+  display: flex;
+  padding: 0px 25px 0px 25px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.alter-screen-header h1 {
+  font-size: 40px;
+  /* display: inline; */
+}
+.alter-screen-header__column {
+  width: 33%;
+}
+.alter-screen-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.alter-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.alter-screen-header__column:last-child i {
+  padding-left: 40px;
+}
+.setting__info {
+  padding: 50px 0px;
+}
+.setting__option {
+  border-top: var(--main-border);
+  padding: 40px 0;
+}

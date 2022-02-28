@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "more.css";
+@import "setting.css";
+@import "chat.css";
+
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/find-btn.css";
+@import "components/letter-icon.css";
+@import "components/notification.css";
+@import "components/setting-component.css";
+@import "components/more-icon-components.css";
+@import "components/date.css";
+@import "components/message.css";
+
+body {
+  color: #2f363e;
+  font-family: "Open Sans", sans-serif;
+}
+
+.welcome-header {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+  margin-bottom: 90px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 30px;
+}
+#login-form input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+#login-form input[type="submit"] {
+  cursor: pointer;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  font-size: 16px;
+
+  padding: 20px 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 13px;
+  /* display: none; */
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  margin: 0px 0 65px 0px;
+  position: relative;
+}

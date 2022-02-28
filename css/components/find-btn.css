@@ -1,0 +1,141 @@
+.find-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 20px 10px;
+  border-bottom: var(--main-border);
+}
+.find-icon__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.find-icon__column i {
+  padding: 15px;
+}
+#letter-icon {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.find-icon__text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.find-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.find-btn__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+.find-btn__text {
+  display: flex;
+  align-items: center;
+}
+
+.find-friends {
+  color: var(--main-font-color);
+  padding: 25px 0px;
+}
+.find-friends__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--main-bold-color);
+}
+.find-friends__text {
+  text-align: center;
+  margin: 100px 0px;
+  font-size: 18px;
+}
+
+.find-openchat {
+  color: var(--main-font-color);
+  padding-top: 20px;
+  margin-bottom: 67px;
+  position: fixed;
+  bottom: 0px;
+
+  box-sizing: border-box;
+
+  width: calc(100% - 2 * var(--horizontal-space));
+
+  border-top: var(--main-border);
+}
+.find-openchat__title {
+  display: flex;
+  justify-content: space-between;
+}
+.find-openchat__title span {
+  opacity: 0.6;
+}
+.find-openchat__component {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: var(--slim-border);
+}
+.find-openchat__component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.find-openchat__component__text * {
+  margin-bottom: 8px;
+}
+.find-openchat__component__text h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
+.find-openchat__component__text__info {
+  display: flex;
+  font-size: 17px;
+}
+.find-openchat__component__text__info * {
+  margin-right: 2px;
+}
+.find-openchat__component__text__info img {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.find-openchat__component__text__info div:last-child {
+  color: #ff99d7;
+  font-weight: 500;
+}
+.find-openchat__component__img {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.find-openchat__component__img img {
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
+.find-openchat__component__likes {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  width: 20%;
+  aspect-ratio: 2/1;
+  border-radius: 35%;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}

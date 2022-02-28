@@ -1,0 +1,19 @@
+.more{
+  border-bottom: var(--slim-border);
+}
+.more-icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.more-icons__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-icon-component {
+  display: inline-block;
+}
+.more-icon-component * {
+  display: inline-block;
+}

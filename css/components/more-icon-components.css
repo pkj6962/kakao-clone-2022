@@ -1,0 +1,28 @@
+/* @media screen and (max-width: 750px) */
+
+.more-icon-component {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px 40px 20px;
+  width: 60px;
+}
+.more-icon-component__empty {
+  width: 60px;
+}
+
+.more-icon-component__title {
+  font-size: 15px;
+  color: var(--main-font-color);
+  padding-top: 15px;
+}
+
+.suggestions {
+  height: 300px;
+}
+.suggestions-header {
+  margin: 30px 0px;
+  font-size: 15px;
+  color: #141414;
+  font-weight: 600;
+}

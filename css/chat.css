@@ -1,9 +1,21 @@
 .chat-screen {
   background-color: var(--chat-screen-color);
-  height: 1500vh;
+  height: 500vh;
   margin-top: 120px;
   display: flex;
   flex-direction: column;
+  animation: fadeIn 1s linear;
+  /* will-change: transform; */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .chat-screen .status-bar {
@@ -30,6 +42,7 @@
   position: fixed;
   bottom: 0px;
   z-index: 2;
+  transition: all 0.3s linear;
 }
 
 .input__column:first-child {
@@ -43,6 +56,8 @@
   background-color: #f8f8f8;
   display: flex;
   align-items: center;
+
+  transition: all 0.3s ease-in-out;
 }
 
 .input__column:nth-child(2) input {
@@ -52,6 +67,7 @@
   border: none;
   font-size: 30px;
   background-color: inherit;
+  transition: all 0.3s ease-in-out;
 }
 
 .input__column .input-submit {
@@ -68,3 +84,32 @@
 .input-submit i {
   padding: 0px;
 }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.input-screen:focus-within {
+  transform: translateY(100px);
+}
+.input-screen:focus-within .input__column:first-child,
+.input-screen:focus-within .fa-smile-wink,
+.input-screen:focus-within button {
+  animation: fadeOut 0.3s linear forwards;
+}
+.input-screen:focus-within .input__column:nth-child(2) {
+  width: 98%;
+  transform: translateX(-3%) translateY(-100px) scaleX(1.1);
+}
+
+/* .input-screen:focus-within .input__column:last-child {
+  width: 98%;
+  transform: translateX(-10%) translateY(-100px);
+}
+.input-screen:focus-within {
+  transform: translateY(100px);
+} */

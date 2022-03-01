@@ -33,4 +33,17 @@
   font-size: 120px;
 
   z-index: 3;
+
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

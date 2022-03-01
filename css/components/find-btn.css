@@ -139,3 +139,19 @@
   align-items: center;
   font-size: 12px;
 }
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.find-openchat__component__likes:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+  color: red;
+}

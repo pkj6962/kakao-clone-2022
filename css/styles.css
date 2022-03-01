@@ -5,6 +5,7 @@
 @import "more.css";
 @import "setting.css";
 @import "chat.css";
+@import "no-mobile.css";
 
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
